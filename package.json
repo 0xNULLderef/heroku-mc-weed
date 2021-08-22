@@ -1,0 +1,18 @@
+{
+	"name": "mc-weed",
+	"version": "4.2.0",
+	"description": "mc server on heroku ig????",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "vistax64",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^16.7.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"ws": "^8.2.0"
+	}
+}
