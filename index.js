@@ -18,6 +18,6 @@ server.on('connection', s => {
 	client.on('data', d => s.send(d));
 });
 
-httpServer.listen(8080 || process.env.PORT);
+httpServer.listen(process.env.PORT || 8080);
 
 spawn('./jdk-16.0.2/bin/java', '-jar server.jar -Xmx2G --nogui'.split(' '));
